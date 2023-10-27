@@ -1,0 +1,42 @@
+.card {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+    margin: 630px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin-top: 4%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.imagem {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.titulo {
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-size: 70%;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.preco {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 77%;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-weight: bold;
+}
